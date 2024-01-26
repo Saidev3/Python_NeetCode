@@ -9,8 +9,8 @@ class Complex:
         self.b += c.b
 
 c1 = Complex(10, 20)
-print(c1.a, c1.b)
-c1.print()
+print(c1.a, c1.b)    # 10 20
+c1.print()    # 10+i20
 c2 = Complex(20, 30)
 c1.add(c2)
-c1.print()
+c1.print()    # 30+i50
